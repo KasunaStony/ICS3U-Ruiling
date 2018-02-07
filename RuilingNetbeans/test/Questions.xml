@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Question>
+    <question>
+        <stem>Which of the following will evaluate to true only if boolean expressions A, B and  C are all false?</stem>
+        <choice1>!A &amp;&amp; !(B &amp;&amp; !C)</choice1>
+        <choice2>!A || !B || !C</choice2>
+        <choice3>!(A || B || C)</choice3>
+        <choice4>!(A &amp;&amp; B &amp;&amp; C)</choice4>
+        <correctA>3</correctA>
+    </question>
+    <question>
+        <stem>In Java, a variable of type int is represented internally as 32-bit signed integer.  Suppose that one bit stores the sign, and the other 31 bits store the magnitude of  the number is base 2. In this scheme, what is the largest value that can be stored  as type int?</stem>
+        <choice1>2³²</choice1>
+        <choice2>2³² - 1</choice2>
+        <choice3>2³¹</choice3>
+        <choice4>2³¹ - 1</choice4>
+        <correctA>4</correctA>
+    </question>
+    <question>
+        <stem>Which statement about parameters is false?</stem>
+        <choice1>The scope of parameters is the method in which they are defined</choice1>
+        <choice2>Static methods have no implicit parameter "this"</choice2>
+        <choice3>Two overloaded methods in the same class must have parameters with different names</choice3>
+        <choice4>All parameters in Java are passed by value</choice4>
+        <correctA>3</correctA>
+    </question>
+    <question>
+        <stem>The color of a pixel can be represented using the RGB color  model, which stores values for red, green, and blue each ranging from 0 to 255.  How many bits would be needed to represent a color in the RGB  model?</stem>
+        <choice1>8</choice1>
+        <choice2>16</choice2>
+        <choice3>24</choice3>
+        <choice4>32</choice4>
+        <correctA>3</correctA>
+    </question>
+    <question>
+        <stem>Which statement about abstract classes and interfaces is false?</stem>
+        <choice1>An interface connot implement any non-default instance methods, which an abstract class can.</choice1>
+        <choice2>All of the methods in both an abstract class and an interface are public.</choice2>
+        <choice3>A class can implement many interfaces but can have only one superclass.</choice3>
+        <choice4>An unlimited number of unrelated classes can implement the same interface.</choice4>
+        <correctA>2</correctA>
+    </question>
+    <question>
+        <stem>Consider the declarations:   Integer intOb = new Integer(3); Object ob = new Integer(4); Double doubOb = new Double(3.0);  Which of the following will not cause an error?</stem>
+        <choice1>if((Integer)ob.compareTo(intOb)〈 0)...</choice1>
+        <choice2>if(intOb.compareTo((Integer)ob)〈 0)...</choice2>
+        <choice3>if(ob.compareTo(intOb)〈 0)...</choice3>
+        <choice4>if(intOb.compareTo(doubOb)〈 0)...</choice4>
+        <correctA>2</correctA>
+    </question>
+    <question>
+        <stem>Which best describes the precondition of a method? It is an assertion that </stem>
+        <choice1>descrives precisely the conditions that must be true at the time the method is called. </choice1>
+        <choice2>initializes the parameters of the method.</choice2>
+        <choice3>describes the effect of the method on its postcondition. </choice3>
+        <choice4>explains what the method does.</choice4>
+        <correctA>1</correctA>
+    </question>
+    <question>
+        <stem>Let list be an ArrayList〈Integer〉containing these elements:   2 5 7 6 0 1  Which of the following statements would not cause an error to occur?</stem>
+        <choice1>Object ob = list.get(6);</choice1>
+        <choice2>Integer inOb = list.add(3.4);</choice2>
+        <choice3>list.add(6,9);</choice3>
+        <choice4>Object x = list.remove(6);</choice4>
+        <correctA>3</correctA>
+    </question>
+    <question>
+        <stem>A feature of data that is used for a binary search but not necessarily used for a sequential search is: </stem>
+        <choice1>length of list</choice1>
+        <choice2>type of data</choice2>
+        <choice3>order of data</choice3>
+        <choice4>smallest value in the list</choice4>
+        <correctA>3</correctA>
+    </question>
+    <question>
+        <stem>What value is stored in result if  ;int result = 13 - 3 * 6 / 4 % 3;</stem>
+        <choice1>-5</choice1>
+        <choice2>12</choice2>
+        <choice3>0</choice3>
+        <choice4>13</choice4>
+        <correctA>2</correctA>
+    </question>
+</Question>
